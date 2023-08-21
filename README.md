@@ -1,4 +1,4 @@
-# idn-homograph-generator
+# idn_homograph_generator
 
 The **idn_homograph_generator** is a Python script used to generate homographs of Internationalized Domain Names (IDNs) to perform homograph attacks. A write-up covering the concept of this script can be found at my blog at [intothethickof.it](https://intothethickof.it/2023/08/15/generating-and-detecting-phishing-domains-with-idn-homograph-attacks).
 
@@ -57,9 +57,11 @@ python idn_homograph_generator.py dictionary.txt github
 ```
 
 The console will look like this:
+
 ![generator_output](https://github.com/varrickkoh/idn_homograph_generator/assets/142608053/9e0a130d-fb8e-4b58-aa95-d8958f4f48a4)
 
 The results of the script will be saved to **github.txt** and look like this:
+
 ![generator_output2](https://github.com/varrickkoh/idn_homograph_generator/assets/142608053/f95c625d-de6f-4d9c-bd73-c1feb1641587)
 
 
