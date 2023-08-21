@@ -1,6 +1,6 @@
-# idn_homograph_generator
+# IDN Homograph Generator
 
-The **idn_homograph_generator** is a Python script used to generate homographs of Internationalized Domain Names (IDNs) to perform homograph attacks. A write-up covering the concept of this script can be found at my blog at [intothethickof.it](https://intothethickof.it/2023/08/15/generating-and-detecting-phishing-domains-with-idn-homograph-attacks).
+The **IDN Homograph Generator** is a Python script used to generate homographs of Internationalized Domain Names (IDNs) to perform homograph attacks. A write-up covering the concept of this script can be found at my blog at [intothethickof.it](https://intothethickof.it/2023/08/15/generating-and-detecting-phishing-domains-with-idn-homograph-attacks).
 
 The script uses a mapping of Unicode characters that are *visually-similar* to Latin letters to generate possible IDNs that can be used to impersonate traditional domains which only contain Latin letters.
 
